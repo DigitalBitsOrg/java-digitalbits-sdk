@@ -14,4 +14,3 @@ deploy:
   on:
     repo: stellar/java-stellar-sdk
     tags: true
-
