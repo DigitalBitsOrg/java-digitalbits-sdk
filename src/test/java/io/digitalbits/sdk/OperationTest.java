@@ -377,6 +377,8 @@ public class OperationTest {
     assertEquals(new Integer(10), parsedOperation.getSignerWeight());
     assertEquals(opSource.getAccountId(), parsedOperation.getSourceAccount().getAccountId());
 
+
+    console.log(operation.toXdrBase64());
     assertEquals(
             "AAAAAQAAAAC7JAuE3XvquOnbsgv2SRztjuk4RoBVefQ0rlrFMMQvfAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAB1vRBIRC3w7ZH5rQa17hIBKUwZTvBP4kNmSP7jVyw1fQAAAAK",
             operation.toXdrBase64());
