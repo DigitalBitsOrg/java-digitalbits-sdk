@@ -20,12 +20,12 @@ public class NetworkTest {
     @Test
     public void testSwitchToTestNetwork() {
         Network.useTestNetwork();
-        assertEquals("Test SDF Network ; September 2015", Network.current().getNetworkPassphrase());
+        assertEquals("Test DigitalBits Network ; December 2017", Network.current().getNetworkPassphrase());
     }
 
     @Test
     public void testSwitchToPublicNetwork() {
         Network.usePublicNetwork();
-        assertEquals("Public Global Stellar Network ; September 2015", Network.current().getNetworkPassphrase());
+        assertEquals("Live DigitalBits Network ; March 2018", Network.current().getNetworkPassphrase());
     }
 }
