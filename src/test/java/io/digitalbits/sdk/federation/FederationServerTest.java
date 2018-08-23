@@ -47,7 +47,7 @@ public class FederationServerTest extends TestCase {
     assertEquals(server.getDomain(), domain);
 
     RecordedRequest stellarTomlRequest = mockWebServer.takeRequest();
-    assertEquals("http://"+domain+"/.well-known/stellar.toml", stellarTomlRequest.getRequestUrl().toString());
+    assertEquals("http://"+domain+"/.well-known/digitalbits.toml", stellarTomlRequest.getRequestUrl().toString());
   }
 
   @Test
