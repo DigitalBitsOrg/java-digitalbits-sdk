@@ -3,14 +3,14 @@ apply plugin: 'ivy-publish'
 
 sourceCompatibility = 1.6
 version = '0.2.0'
-group = 'stellar'
+group = 'digitalbits'
 
 jar {
     manifest {
-        attributes 'Implementation-Title': 'stellar-sdk',
+        attributes 'Implementation-Title': 'digitalbits-sdk',
                    'Implementation-Version': version
     }
-    archiveName 'stellar-sdk.jar'
+    archiveName 'digitalbits-sdk.jar'
     duplicatesStrategy DuplicatesStrategy.EXCLUDE
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
 }
