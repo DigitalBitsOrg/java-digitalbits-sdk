@@ -1,11 +1,11 @@
-package org.digitalbits.sdk;
+package io.digitalbits.sdk;
 
 import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Represents an account in DigitalBits network with it's sequence number.
  * Account object is required to build a {@link Transaction}.
- * @see org.digitalbits.sdk.Transaction.Builder
+ * @see io.digitalbits.sdk.Transaction.Builder
  */
 public class Account implements TransactionBuilderAccount {
   private final KeyPair mKeyPair;
