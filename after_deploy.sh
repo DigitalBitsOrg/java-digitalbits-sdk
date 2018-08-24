@@ -1,5 +1,5 @@
 #echo "machine github.com login digitalbits-jenkins password $GITHUB_TOKEN" >~/.netrc
-git clone -b gh-pages "https://digitalbits-jenkins@github.com/digitalbitsorg/java-digitalbits-sdk.git" javadoc
+git clone -b gh-pages "git+ssh://git@github.com/digitalbitsorg/java-digitalbits-sdk.git" javadoc
 
 if [ ! -d "javadoc" ]; then
   echo "Error cloning"
