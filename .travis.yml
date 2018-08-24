@@ -12,6 +12,6 @@ deploy:
   file: "./build/libs/digitalbits-sdk.jar"
   skip_cleanup: true
   on:
-    repo: digitalbitsorg/java-digitalbits-sdk
+    repo: DigitalBitsOrg/java-digitalbits-sdk
     tags: true
 
