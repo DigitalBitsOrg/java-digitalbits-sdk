@@ -7,7 +7,7 @@ if [ ! -d "javadoc" ]; then
 fi
 
 rm -rf javadoc/* # Remove all files without hidden (.git)
-javadoc -public -splitindex -windowtitle "java-digitalbits-sdk documentation" -d ./javadoc -sourcepath ./src/main/java/ -subpackages org.digitalbits.sdk -exclude org.digitalbits.sdk.xdr
+javadoc -public -splitindex -windowtitle "java-digitalbits-sdk documentation" -d ./javadoc -sourcepath ./src/main/java/ -subpackages io.digitalbits.sdk -exclude io.digitalbits.sdk.xdr
 cd javadoc
 git add .
 git commit -m $TRAVIS_TAG
