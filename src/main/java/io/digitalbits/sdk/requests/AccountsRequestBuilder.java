@@ -45,7 +45,7 @@ public class AccountsRequestBuilder extends RequestBuilder {
 
   /**
    * Requests <code>GET /accounts/{account}</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/accounts-single.html">Account Details</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/accounts-single.html">Account Details</a>
    * @param account Account to fetch
    * @throws IOException
    */
@@ -72,12 +72,12 @@ public class AccountsRequestBuilder extends RequestBuilder {
   }
 
   /**
-   * Allows to stream SSE events from horizon.
+   * Allows to stream SSE events from frontier.
    * Certain endpoints in Horizon can be called in streaming mode using Server-Sent Events.
-   * This mode will keep the connection to horizon open and horizon will continue to return
+   * This mode will keep the connection to frontier open and frontier will continue to return
    * responses as ledgers close.
    * @see <a href="http://www.w3.org/TR/eventsource/" target="_blank">Server-Sent Events</a>
-   * @see <a href="https://developer.digitalbits.io/horizon/learn/responses.html" target="_blank">Response Format documentation</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/learn/responses.html" target="_blank">Response Format documentation</a>
    * @param listener {@link EventListener} implementation with {@link AccountResponse} type
    * @return EventSource object, so you can <code>close()</code> connection when not needed anymore
    */

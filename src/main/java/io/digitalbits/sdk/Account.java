@@ -14,7 +14,7 @@ public class Account implements TransactionBuilderAccount {
   /**
    * Class constructor.
    * @param keypair KeyPair associated with this Account
-   * @param sequenceNumber Current sequence number of the account (can be obtained using java-digitalbits-sdk or horizon server)
+   * @param sequenceNumber Current sequence number of the account (can be obtained using java-digitalbits-sdk or frontier server)
    */
   public Account(KeyPair keypair, Long sequenceNumber) {
     mKeyPair = checkNotNull(keypair, "keypair cannot be null");

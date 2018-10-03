@@ -7,7 +7,7 @@ import io.digitalbits.sdk.KeyPair;
 
 /**
  * Represents offer response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/offer.html" target="_blank">Offer documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/offer.html" target="_blank">Offer documentation</a>
  * @see io.digitalbits.sdk.requests.OffersRequestBuilder
  * @see io.digitalbits.sdk.Server#offers()
  */

@@ -8,7 +8,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Represents order book response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/orderbook.html" target="_blank">Order book documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/orderbook.html" target="_blank">Order book documentation</a>
  * @see io.digitalbits.sdk.requests.OrderBookRequestBuilder
  * @see io.digitalbits.sdk.Server#orderBook()
  */

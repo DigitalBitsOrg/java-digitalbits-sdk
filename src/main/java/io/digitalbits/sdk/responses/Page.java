@@ -15,7 +15,7 @@ import java.util.ArrayList;
 
 /**
  * Represents page of objects.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/page.html" target="_blank">Page documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/page.html" target="_blank">Page documentation</a>
  */
 public class Page<T> extends Response {
   @SerializedName("records")

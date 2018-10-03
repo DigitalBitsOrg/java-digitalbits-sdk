@@ -39,7 +39,7 @@ public class OperationsRequestBuilder extends RequestBuilder {
 
   /**
    * Requests <code>GET /operations/{operationId}</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/operations-single.html">Operation Details</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/operations-single.html">Operation Details</a>
    * @param operationId Operation to fetch
    * @throws IOException
    */
@@ -50,7 +50,7 @@ public class OperationsRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /accounts/{account}/operations</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/operations-for-account.html">Operations for Account</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/operations-for-account.html">Operations for Account</a>
    * @param account Account for which to get operations
    */
   public OperationsRequestBuilder forAccount(KeyPair account) {
@@ -61,7 +61,7 @@ public class OperationsRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /ledgers/{ledgerSeq}/operations</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/operations-for-ledger.html">Operations for Ledger</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/operations-for-ledger.html">Operations for Ledger</a>
    * @param ledgerSeq Ledger for which to get operations
    */
   public OperationsRequestBuilder forLedger(long ledgerSeq) {
@@ -71,7 +71,7 @@ public class OperationsRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /transactions/{transactionId}/operations</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/operations-for-transaction.html">Operations for Transaction</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/operations-for-transaction.html">Operations for Transaction</a>
    * @param transactionId Transaction ID for which to get operations
    */
   public OperationsRequestBuilder forTransaction(String transactionId) {

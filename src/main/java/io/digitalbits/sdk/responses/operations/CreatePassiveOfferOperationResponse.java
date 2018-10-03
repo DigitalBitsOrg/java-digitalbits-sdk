@@ -8,7 +8,7 @@ import io.digitalbits.sdk.KeyPair;
 
 /**
  * Represents CreatePassiveOffer operation response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/operation.html" target="_blank">Operation documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/operation.html" target="_blank">Operation documentation</a>
  * @see io.digitalbits.sdk.requests.OperationsRequestBuilder
  * @see io.digitalbits.sdk.Server#operations()
  */
@@ -17,7 +17,7 @@ public class CreatePassiveOfferOperationResponse extends OperationResponse {
   protected final Integer offerId;
   @SerializedName("amount")
   protected final String amount;
-  // Price is not implemented yet in horizon
+  // Price is not implemented yet in frontier
   @SerializedName("price")
   protected final String price;
 

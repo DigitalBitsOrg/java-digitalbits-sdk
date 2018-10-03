@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 /**
  * Represents ledger response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/ledger.html" target="_blank">Ledger documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/ledger.html" target="_blank">Ledger documentation</a>
  * @see io.digitalbits.sdk.requests.LedgersRequestBuilder
  * @see io.digitalbits.sdk.Server#ledgers()
  */

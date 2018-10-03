@@ -8,7 +8,7 @@ import java.util.Date;
 
 /**
  * Represents trades response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/endpoints/trades.html" target="_blank">Trades documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/endpoints/trades.html" target="_blank">Trades documentation</a>
  * @see io.digitalbits.sdk.requests.TradesRequestBuilder
  * @see io.digitalbits.sdk.Server#trades()
  */

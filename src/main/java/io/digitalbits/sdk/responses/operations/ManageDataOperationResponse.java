@@ -4,7 +4,7 @@ import com.google.gson.annotations.SerializedName;
 
 /**
  * Represents ManageDataoperation response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/operation.html" target="_blank">Operation documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/operation.html" target="_blank">Operation documentation</a>
  * @see io.digitalbits.sdk.requests.OperationsRequestBuilder
  * @see io.digitalbits.sdk.Server#operations()
  */

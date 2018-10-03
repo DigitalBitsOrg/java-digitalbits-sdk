@@ -10,7 +10,7 @@ import java.util.ArrayList;
 
 /**
  * Represents path response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/path.html" target="_blank">Path documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/path.html" target="_blank">Path documentation</a>
  * @see io.digitalbits.sdk.requests.PathsRequestBuilder
  * @see io.digitalbits.sdk.Server#paths()
  */

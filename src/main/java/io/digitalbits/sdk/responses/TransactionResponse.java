@@ -9,7 +9,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Represents transaction response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/transaction.html" target="_blank">Transaction documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/transaction.html" target="_blank">Transaction documentation</a>
  * @see io.digitalbits.sdk.requests.TransactionsRequestBuilder
  * @see io.digitalbits.sdk.Server#transactions()
  */

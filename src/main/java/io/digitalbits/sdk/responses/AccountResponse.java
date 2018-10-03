@@ -10,7 +10,7 @@ import static com.google.common.base.Preconditions.checkNotNull;
 
 /**
  * Represents account response.
- * @see <a href="https://developer.digitalbits.io/horizon/reference/resources/account.html" target="_blank">Account documentation</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/reference/resources/account.html" target="_blank">Account documentation</a>
  * @see io.digitalbits.sdk.requests.AccountsRequestBuilder
  * @see io.digitalbits.sdk.Server#accounts()
  */

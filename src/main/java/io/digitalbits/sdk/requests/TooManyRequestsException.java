@@ -2,7 +2,7 @@ package io.digitalbits.sdk.requests;
 
 /**
  * Exception thrown when too many requests were sent to the Horizon server.
- * @see <a href="https://developer.digitalbits.io/horizon/learn/rate-limiting.html" target="_blank">Rate Limiting</a>
+ * @see <a href="https://developer.digitalbits.io/frontier/learn/rate-limiting.html" target="_blank">Rate Limiting</a>
  */
 public class TooManyRequestsException extends RuntimeException {
   private int retryAfter;

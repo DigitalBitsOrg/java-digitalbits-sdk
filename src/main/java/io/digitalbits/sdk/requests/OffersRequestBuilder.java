@@ -24,7 +24,7 @@ public class OffersRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /accounts/{account}/offers</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/offers-for-account.html">Offers for Account</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/offers-for-account.html">Offers for Account</a>
    * @param account Account for which to get offers
    */
   public OffersRequestBuilder forAccount(KeyPair account) {

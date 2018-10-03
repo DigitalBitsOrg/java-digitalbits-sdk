@@ -151,7 +151,7 @@ public class SubmitTransactionResponse extends Response {
 
         /**
          * Contains result codes for this transaction.
-         * @see <a href="https://github.com/digitalbitsorg/horizon/blob/master/src/github.com/digitalbitsorg/horizon/codes/main.go" target="_blank">Possible values</a>
+         * @see <a href="https://github.com/digitalbitsorg/frontier/blob/master/src/github.com/digitalbitsorg/frontier/codes/main.go" target="_blank">Possible values</a>
          */
         public static class ResultCodes {
             @SerializedName("transaction")

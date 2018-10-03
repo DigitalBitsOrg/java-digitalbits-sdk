@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/digitalbitsorg/java-digitalbits-sdk.svg)](https://travis-ci.com/digitalbitsorg/java-digitalbits-sdk)
 
-The Java DigitalBits Sdk library provides APIs to build transactions and connect to [Horizon](https://github.com/digitalbitsorg/horizon).
+The Java DigitalBits Sdk library provides APIs to build transactions and connect to [Horizon](https://github.com/digitalbitsorg/frontier).
 
 ## Installation
 

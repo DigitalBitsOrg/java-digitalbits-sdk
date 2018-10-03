@@ -32,7 +32,7 @@ public class PaymentsRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /accounts/{account}/payments</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/payments-for-account.html">Payments for Account</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/payments-for-account.html">Payments for Account</a>
    * @param account Account for which to get payments
    */
   public PaymentsRequestBuilder forAccount(KeyPair account) {
@@ -43,7 +43,7 @@ public class PaymentsRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /ledgers/{ledgerSeq}/payments</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/payments-for-ledger.html">Payments for Ledger</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/payments-for-ledger.html">Payments for Ledger</a>
    * @param ledgerSeq Ledger for which to get payments
    */
   public PaymentsRequestBuilder forLedger(long ledgerSeq) {
@@ -53,7 +53,7 @@ public class PaymentsRequestBuilder extends RequestBuilder {
 
   /**
    * Builds request to <code>GET /transactions/{transactionId}/payments</code>
-   * @see <a href="https://developer.digitalbits.io/horizon/reference/payments-for-transaction.html">Payments for Transaction</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/reference/payments-for-transaction.html">Payments for Transaction</a>
    * @param transactionId Transaction ID for which to get payments
    */
   public PaymentsRequestBuilder forTransaction(String transactionId) {
@@ -80,12 +80,12 @@ public class PaymentsRequestBuilder extends RequestBuilder {
   }
 
   /**
-   * Allows to stream SSE events from horizon.
+   * Allows to stream SSE events from frontier.
    * Certain endpoints in Horizon can be called in streaming mode using Server-Sent Events.
-   * This mode will keep the connection to horizon open and horizon will continue to return
+   * This mode will keep the connection to frontier open and frontier will continue to return
    * responses as ledgers close.
    * @see <a href="http://www.w3.org/TR/eventsource/" target="_blank">Server-Sent Events</a>
-   * @see <a href="https://developer.digitalbits.io/horizon/learn/responses.html" target="_blank">Response Format documentation</a>
+   * @see <a href="https://developer.digitalbits.io/frontier/learn/responses.html" target="_blank">Response Format documentation</a>
    * @param listener {@link EventListener} implementation with {@link OperationResponse} type
    * @return EventSource object, so you can <code>close()</code> connection when not needed anymore
    */
